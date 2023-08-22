@@ -9,9 +9,6 @@ enum class NOTES(val PLAY: Float){
     E1(335.4f),
     F1(360.4f),
     G1(395.4f),
-    A1(445.4f),
-    B1(495.4f),
-    C2(515.4f)
 }
 
 class SoundGen(val source: SourceDataLine, val audioFormat: AudioFormat, val rate: Float) {

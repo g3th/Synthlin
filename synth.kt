@@ -6,7 +6,7 @@ fun clearScreen(){
 }
 
 fun main() {
-    val rate = 44100f
+    val rate = 42100f
     val audioFormat = AudioFormat(rate, 8, 1, true, false)
     clearScreen()
     println("\u001B[48;5;16m")

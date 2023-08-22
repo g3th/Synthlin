@@ -2,8 +2,14 @@ package synth
 import javax.sound.sampled.*
 
 class Tune(source: SourceDataLine?, audioFormat: AudioFormat, rate: Float ) {
-    
-    val soundGen = SoundGen(source!!, audioFormat, rate)
+    lateinit var soundGen: SoundGen
+
+    init {
+        if (source != null) {
+            soundGen = SoundGen(source!!, audioFormat, rate)
+        }
+    }
+
     val volume = 30
     
     fun play() {
