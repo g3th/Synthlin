@@ -6,3 +6,9 @@ Attempt to create a Kotlin synth using sound synthesis, and the javax.sound.samp
 
 Just plays 'When the Saints' at the moment, but will eventually be expanded into a full-GUI/TUI so that sounds can be shaped.
 
+Launch with:
+
+```kotlinc synth.kt device.kt generator.kt whenTheSaints.kt -include-runtime -d synth.jar```
+
+```java -jar synth.jar```
+

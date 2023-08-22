@@ -17,7 +17,8 @@ class Devices(mixerInfo: Array<Mixer.Info>, audioFormat: AudioFormat) {
         while (dev == null) {
             try {
                 for (i in mInfo) {
-                    println("$deviceCounter) ${i.name} | ${i.version} | ${i.vendor} | ${i.description} | ${i.version}")
+                    println("\u001B[48;5;16m\u001B[38;5;231m$deviceCounter) \u001B[38;5;34m${i.name} | \u001B[38;5;89m${i.version} " +
+                            "| \u001B[38;5;40m${i.vendor} | \u001B[38;5;172m${i.description} | \u001B[38;5;160m${i.version}\n\u001B[38;5;231m")
                     deviceCounter++
                 }
                 print("\nChoose Device: ")
