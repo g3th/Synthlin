@@ -15,7 +15,7 @@ fun main() {
     val device = devices.pickDevice()
     val tune = Tune(device?.source, audioFormat, rate)
     clearScreen()
-    println("Playing:")
+    println("Playing 'When The Saints':")
     repeat(2) {
         tune.play()
     }
