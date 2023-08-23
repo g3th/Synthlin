@@ -12,3 +12,17 @@ Launch with:
 
 ```java -jar synth.jar```
 
+Or if using IntelliJ:
+
+- Install JDK and Kotlin for your environment (i.e. scoop or apt)
+
+- Mark 'Synthlin' directory as Source
+
+- Pick your JDK Version
+
+- Select your Kotlin Compiler Version
+
+- mkdir/md a 'compiler-output' folder in the 'Synthlin' directory
+
+- Choose 'compiler-output' as your compiler output folder (File -> Project -> Compiler Output)
+
